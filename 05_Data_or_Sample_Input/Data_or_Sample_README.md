@@ -6,8 +6,11 @@ CIC-IDS2017
 ## Dataset Description
 CIC-IDS2017 is a publicly available cybersecurity dataset containing normal and malicious network traffic. The dataset provides labelled network traffic data that can be used for machine learning-based cyber threat classification.
 
-## Source
-Canadian Institute for Cybersecurity (CIC)
+## Data Source
+
+Canadian Institute for Cybersecurity (CIC), University of New Brunswick.
+Official dataset page:
+https://www.unb.ca/cic/datasets/ids-2017.html
 
 ## Intended Use
 The dataset will be used to train and test the proposed Random Forest machine learning model for binary classification of network traffic as benign or malicious.
