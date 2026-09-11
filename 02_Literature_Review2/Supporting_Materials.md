@@ -1,6 +1,6 @@
 # 02_Literature_Review: Supporting Materials
 
-This directory contains supporting analysis files and documentation for Chapter 2, fulfilling the UniKL CDDH v4 Appendix O assessment requirements.
+This directory contains supporting analysis files and documentation for Chapter 2.
 
 ---
 
