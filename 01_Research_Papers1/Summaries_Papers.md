@@ -40,7 +40,7 @@ This document presents detailed summary tables for 5 key primary research papers
 
 | Item | Required Information |
 | :--- | :--- |
-| **Paper Title** | EAdvanced Techniques for Alert Management in Security Information and Event Management Systems With Ensembled Deep Learning, Hybrid Optimization, and Multi-Feature Extraction |
+| **Paper Title** | Advanced Techniques for Alert Management in Security Information and Event Management Systems With Ensembled Deep Learning, Hybrid Optimization, and Multi-Feature Extraction |
 | **Author(s)** | R. Khayat, M. Al-Makhlafi, & A. A. Zaidan |
 | **Year** | 2025 |
 | **Research Problem** | Black-box ML alerts in SIEM platforms lack contextual clarity, slowing down incident investigation times. |
