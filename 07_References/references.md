@@ -95,9 +95,14 @@ Canadian Institute for Cybersecurity. (2017). Intrusion detection evaluation dat
 
 # Technical Documentation
 
-Wazuh documentation
-Scikit-learn documentation
-Python documentation
+- Wazuh. (n.d.). *Wazuh documentation*. 
+  https://documentation.wazuh.com/current/index.html
+
+- Python Software Foundation. (n.d.). *Python documentation*. 
+  https://docs.python.org/3/
+
+- Scikit-learn developers. (n.d.). *Scikit-learn documentation*. 
+  https://scikit-learn.org/stable/
 
 
 
