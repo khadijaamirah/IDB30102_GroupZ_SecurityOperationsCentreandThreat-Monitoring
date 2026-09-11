@@ -137,7 +137,47 @@ Ratti, S., Marotta, A., Tiberti, W., Centofanti, C., Cassioli, D., & Graziosi, F
 O-RAN and SIEM for unified detection of IT and mobile network attacks. 2025 IEEE 22nd
 Consumer Communications & Networking Conference (CCNC), 1–6. IEEE. https://ieeexploreieee-org.remotexs.unikl.edu.my/document/10976103
 
+Al-Dahasi, E., & Khan, F. A. (2024). Automating security incident response in SCADA systems
+through SIEM-ML integration. 2024 29th International Conference on Automation and
+Computing (ICAC), 1–6. IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/10718780
 
+Sim, D., Guo, H., & Zhou, L. (2023). A SIEM and multiple analysis software integrated malware
+detection approach. 2023 IEEE International Conference on Service Operations and Logistics,
+and Informatics (SOLI). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/10425463
+
+Utarbayeva, M., & Mukanova, M. (2024). Integrated computer network security system:
+Intrusion detection and threat prediction using machine learning algorithms. 2024 IEEE 4th
+International Conference on Smart Information Systems and Technologies (SIST). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=10629410
+
+Manju, A., Puteh, M., & Subha, R. (2025). Insider threat detection using machine learning
+models for user behavior analysis. 2025 5th International Conference on Expert Clouds and
+Applications (ICOECA). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=11113891
+
+Ayu, M. A., Erlangga, D., Mantoro, T., & Handayani, D. (2023). Enhancing security information
+and event management (SIEM) by incorporating machine learning for cyber-attack detection.
+2023 IEEE 9th International Conference on Computing, Engineering and Design (ICCED).
+IEEE. https://ieeexplore-ieeeorg.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=10425288
+
+Michailidis, G., Doukas, N., Borges, J., & Selivanov, V. (2024). Machine learning detection and
+categorization of threats. 2024 14th IEEE International Conference on Dependable Systems,
+Services and Technologies (DESSERT). IEEE. https://ieeexplore-ieeeorg.remotexs.unikl.edu.my/document/11122139
+
+Kapera, A., & Niemiec, M. (2025). Dynamic risk thresholds for SIEM alerting based on machine
+learning. IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11078272
+
+Mehta, B. U., & Kaur, H. (2026). Operationalizing adversarial machine learning robustness
+through structured logging for security operations. 2026 13th International Conference on
+Computing for Sustainable Global Development (INDIACom). IEEE. https://ieeexplore-ieeeorg.remotexs.unikl.edu.my/document/11525668
+
+Khalfi, L., Benbrahim, H., & Amine, A. (2026). Predictive intrusion detection system: A
+distributed machine learning framework integrated with Wazuh for real-time network threat
+prediction. 2026 International Conference on Intelligent Systems and Digital Applications
+(ISDA). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11606148
+
+Aktar, M. N., Sakib, M. N., Hossain, A., Ullah, A., Robin, K. H., Rahman, K. M., Reza, M. T.,
+Ameen, A., Hossain, M. R., & Kundu, D. (2024). Enhancing false positive alert detection in
+security information and event management system using recurrent neural network. 2024 27th
+International Conference on Computer and Information Technology (ICCIT). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11022066
 
 
 
