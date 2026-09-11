@@ -77,15 +77,12 @@ Utarbayeva, M., & Mukanova, M. (2024). Integrated computer network security syst
 Yauri, C., Gutiérrez, R., Cárdenas, J., & Ticona, W. (2026). Model for detecting security events from SIEM logs using machine learning techniques. In R. Šilhavý & P. Šilhavý (Eds.), Focus on artificial intelligence in intelligent systems design (pp. 184–195). Springer Nature Switzerland. https://doi.org/10.1007/978-3-032-22091-2_14
 
 
-
 # Dataset Reference
 
 CIC-IDS2017
 
-Canadian Institute for Cybersecurity. (n.d.). *Intrusion detection evaluation dataset (CIC-IDS2017)*. 
+Canadian Institute for Cybersecurity. (2017). Intrusion detection evaluation dataset (CIC-IDS2017). University of New Brunswick. https://www.unb.ca/cic/datasets/ids-2017.html
 
-Official dataset source:
-[PASTE OFFICIAL CIC-IDS2017 LINK HERE]
 
 # Software and Open-Source Resources
 
