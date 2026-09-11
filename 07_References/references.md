@@ -18,6 +18,12 @@ Ahmad, W., & Amjad, M. F. (2024). Anomaly detection in HTTP logs: Leveraging mac
 learning for uncovering anomalous traffic patterns with SIEM integration. 2024 21st International
 Bhurban Conference on Applied Sciences and Technology (IBCAST), 622–629. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/10877256
 
+Abd Bahrim, A. M., Mohamad Hata, M., Allias, N., Bolhan, Z., Darus, M., & Binti
+  Kamarudin, S. I. (2026). Mitigating alert fatigue in Security Information
+  and Event Management (SIEM): Ensemble machine learning integration
+  with Elasticsearch, Logstash, and Kibana (ELK). JOIV: International Journal on Informatics Visualization, 10(2), 787795.
+  https://doi.org/10.62527/joiv.10.2.4738
+
 Bharathi, R., Anesh Ram, S. T., Dinesh, I., Gokul, K. J., & Jagan, R. (2026). Cyber threat detection in secure network environments using an improved Isolation Forest. In 2026 International Conference on Connected Intelligence for Industrial Applications (CI2A). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11576913
 
 Hamza, M., Imdad, M., Anwar-ul-Hassan, A., & Iqbal, J. (2025). Hybrid deep learning architecture for SIEM enhancement using novel threat intelligence data. In 2025 27th International Multitopic Conference (INMIC) (pp. 1–8). IEEE. https://doi.org/10.1109/INMIC65900.2025.11348597
