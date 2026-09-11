@@ -84,19 +84,14 @@ CIC-IDS2017
 Canadian Institute for Cybersecurity. (2017). Intrusion detection evaluation dataset (CIC-IDS2017). University of New Brunswick. https://www.unb.ca/cic/datasets/ids-2017.html
 
 
-# Software and Open-Source Resources
+## Software, Frameworks and Technical Resources
 
-Wazuh – Security monitoring and SIEM platform
-- Official URL: https://wazuh.com/platform/siem/
-- Wazuh officially describes this as its Security Information and Event Management (SIEM) solution for aggregating and analysing security telemetry for threat detection.
+- Wazuh. (n.d.). *Wazuh SIEM*. https://wazuh.com/platform/siem/
 
-Python – Programming language used for machine learning implementation
-Official URL: https://www.python.org/
-Python's official website describes Python as a programming language
+- Python Software Foundation. (n.d.). *Python*. https://www.python.org/
 
-Scikit-learn – Machine learning library used for Random Forest and Decision Tree implementation
-Official URL: https://scikit-learn.org/
-The official documentation identifies scikit-learn as “Machine Learning in Python” and includes Random Forest among its classification algorithms.
+- Scikit-learn developers. (n.d.). *Scikit-learn: Machine learning in Python*. https://scikit-learn.org/
+
 
 # Technical Documentation
 
