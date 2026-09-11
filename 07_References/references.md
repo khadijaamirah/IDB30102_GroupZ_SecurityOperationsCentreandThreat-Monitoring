@@ -14,6 +14,10 @@ Aktar, M. N., Sakib, M. N., Hossain, A., Ullah, A., Robin, K. H., Rahman, K. M.,
 
 Ayu, M. A., Erlangga, D., Mantoro, T., & Handayani, D. (2023). Enhancing security information and event management (SIEM) by incorporating machine learning for cyber-attack detection. In 2023 IEEE 9th International Conference on Computing, Engineering and Design (ICCED). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/stamp/stamp.jsp?tp=&arnumber=10425288
 
+Ahmad, W., & Amjad, M. F. (2024). Anomaly detection in HTTP logs: Leveraging machine
+learning for uncovering anomalous traffic patterns with SIEM integration. 2024 21st International
+Bhurban Conference on Applied Sciences and Technology (IBCAST), 622–629. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/10877256
+
 Bharathi, R., Anesh Ram, S. T., Dinesh, I., Gokul, K. J., & Jagan, R. (2026). Cyber threat detection in secure network environments using an improved Isolation Forest. In 2026 International Conference on Connected Intelligence for Industrial Applications (CI2A). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/11576913
 
 Hamza, M., Imdad, M., Anwar-ul-Hassan, A., & Iqbal, J. (2025). Hybrid deep learning architecture for SIEM enhancement using novel threat intelligence data. In 2025 27th International Multitopic Conference (INMIC) (pp. 1–8). IEEE. https://doi.org/10.1109/INMIC65900.2025.11348597
