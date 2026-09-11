@@ -1,4 +1,4 @@
-• Research Title
+# Development of a Machine Learning Approach to Improve Cyber Threat Detection Accuracy in Security Information and Event Management
 • Group 
 • Group Members and Student IDs
 • Assigned Research Area
