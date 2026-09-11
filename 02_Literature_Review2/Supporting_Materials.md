@@ -72,15 +72,3 @@ This directory contains supporting analysis files and documentation for Chapter 
 * **F1-Score ($F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$):** Harmonic mean balancing false positives and false negatives.
 * **False Positive Rate ($FPR = \frac{FP}{FP + TN}$):** Key metric for assessing alert fatigue reduction.
 * **Inference Latency (ms):** Measures operational suitability for real-time streaming log ingestion.
-
----
-
-## 7. References Supporting the Proposed Methodology
-
-1. **Abd Bahrim, M. F., Harun, N., & Ismail, Z. (2026).** Hybrid CNN-KNN architecture for lightweight threat detection in edge-SIEM environments. *Journal of Cyber Security and Technology*, 14(1), 45–58.
-2. **Hamza, A., Benkirane, S., & Guezzaz, A. (2025).** Lowering false positive rates in SOC environments using dynamic risk thresholding. *Computers & Security*, 138, Article 103650.
-3. **Kayhan, E., Yilmaz, S., & Sahin, M. (2023).** Unsupervised zero-day anomaly detection in SIEM using Autoencoders and Isolation Forests. *Computers & Security*, 124, Article 102980.
-4. **Khalfi, B., Amine, A., & Baina, A. (2026).** Integrating machine learning inference pipelines with Wazuh SIEM for automated host-based threat response. *Journal of Information Security and Applications*, 78, Article 103720.
-5. **Khayat, R., Al-Makhlafi, M., & Zaidan, A. A. (2025).** Explainable artificial intelligence (XAI) for mitigating analyst alert fatigue in modern Security Operations Centers. *Expert Systems with Applications*, 245, Article 123100.
-6. **Nurusheva, A., Smailov, N., & Omarov, B. (2024).** Alert fatigue reduction in SOCs using soft-voting ensembles and SHAP feature importance. *IEEE Access*, 12, 18450–18462.
-7. **Sebbar, A., Hajji, S., & El Kettani, M. D. (2023).** Real-time log parsing and threat classification in open-source ELK Stack architectures. *International Journal of Information Security*, 22(4), 981–995.
