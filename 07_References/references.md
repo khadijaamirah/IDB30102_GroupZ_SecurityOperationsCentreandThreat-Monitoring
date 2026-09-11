@@ -87,8 +87,8 @@ Canadian Institute for Cybersecurity. (2017). Intrusion detection evaluation dat
 # Software and Open-Source Resources
 
 Wazuh – Security monitoring and SIEM platform
-#Official URL: https://wazuh.com/platform/siem/
-Wazuh officially describes this as its Security Information and Event Management (SIEM) solution for aggregating and analysing security telemetry for threat detection.
+-Official URL: https://wazuh.com/platform/siem/
+-Wazuh officially describes this as its Security Information and Event Management (SIEM) solution for aggregating and analysing security telemetry for threat detection.
 
 Python – Programming language used for machine learning implementation
 Official URL: https://www.python.org/
