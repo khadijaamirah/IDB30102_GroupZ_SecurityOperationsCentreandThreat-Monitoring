@@ -1,5 +1,14 @@
 # Research Paper References
 
+
+Abd Bahrim, A. M., Mohamad Hata, M., Allias, N., Bolhan, Z., Darus, M., & Binti Kamarudin, S. I. (2026). Mitigating alert fatigue in Security Information and Event Management (SIEM): Ensemble machine learning integration with Elasticsearch, Logstash, and Kibana (ELK). *JOIV: International Journal on Informatics Visualization, 10*(2), 787–795. https://doi.org/10.62527/joiv.10.2.4738
+
+Ahmad, W., & Amjad, M. F. (2024). Anomaly detection in HTTP logs: Leveraging machine learning for uncovering anomalous traffic patterns with SIEM integration. *2024 21st International Bhurban Conference on Applied Sciences and Technology (IBCAST)*, 622–629. https://doi.org/10.1109/IBCAST61650.2024.10877256
+
+Abd Bahrim, A. M., Mohamad Hata, M., Allias, N., Bolhan, Z., Darus, M., & Binti Kamarudin, S. I. (2026). Mitigating alert fatigue in Security Information and Event Management (SIEM): Ensemble machine learning integration with Elasticsearch, Logstash, and Kibana (ELK). *JOIV: International Journal on Informatics Visualization, 10*(2), 787–795. https://doi.org/10.62527/joiv.10.2.4738
+
+Ahmad, W., & Amjad, M. F. (2024). Anomaly detection in HTTP logs: Leveraging machine learning for uncovering anomalous traffic patterns with SIEM integration. *2024 21st International Bhurban Conference on Applied Sciences and Technology (IBCAST)*, 622–629. https://doi.org/10.1109/IBCAST61650.2024.10877256***
+
 Al-Dahasi, E., & Khan, F. A. (2024). Automating security incident response in SCADA systems through SIEM-ML integration. In 2024 29th International Conference on Automation and Computing (ICAC) (pp. 1–6). IEEE. https://ieeexplore-ieee-org.remotexs.unikl.edu.my/document/10718780
 
 Al Shihab, M. F., Al Seum, S. A., Rahman, M. A., Nadim, R., Rafi, A. H., & Kar, T. S. (2025). XSIEM framework: Integrating rule-based, ML, and LLMs for cyber threat intelligence. In 2025 28th International Conference on Computer and Information Technology (ICCIT) (pp. 4777–4782). IEEE. https://doi.org/10.1109/ICCIT68739.2025.11491524
