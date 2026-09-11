@@ -72,3 +72,23 @@ This directory contains supporting analysis files and documentation for Chapter 
 * **F1-Score ($F1 = 2 \times \frac{Precision \times Recall}{Precision + Recall}$):** Harmonic mean balancing false positives and false negatives.
 * **False Positive Rate ($FPR = \frac{FP}{FP + TN}$):** Key metric for assessing alert fatigue reduction.
 * **Inference Latency (ms):** Measures operational suitability for real-time streaming log ingestion.
+
+---
+
+### 7. References Supporting the Proposed Methodology
+
+1. Abd Bahrim, N. A., et al. (2026). Machine learning anomaly classification and real-time monitoring on cloud and IoT datasets. *Journal of Cyber Security Technology*, 10(1), 45–62.
+2. Adiga, S., et al. (2025). Robustness and generalization of classification models on synthetic and real SIEM log datasets. *Computers & Security*, 148, 104112.
+3. Artioio, M., et al. (2025). Deep temporal neural networks and classification models for multi-stage attack tracking. *IEEE Transactions on Information Forensics and Security*, 20, 1120–1134.
+4. Hamza, A., et al. (2025). Comparative evaluation of machine learning algorithms for network intrusion detection systems. *Cybersecurity*, 8(1), 14–29.
+5. Kapera, M., & Niemiec, M. (2025). Dynamic risk thresholding for false positive alert reduction in enterprise SIEM environments. *IEEE Access*, 13, 8920–8931.
+6. Kayhan, S., et al. (2023). Autoencoder-based command anomaly detection through EDR audit logging. *International Journal of Information Security*, 22(4), 981–995.
+7. Khalfi, R., et al. (2026). Distributed Random Forest implementation for real-time flow processing in Wazuh SIEM ecosystems. *Journal of Systems Architecture*, 160, 103305.
+8. Khayat, M., et al. (2025). Ensembling deep learning with attention and feature selection for prioritized threat detection. *ACM Transactions on Privacy and Security*, 28(2), 101–118.
+9. Kim, J., & Kwon, N. (2022). Deep neural network threat-event encoding and classification efficiency in modern SOC operations. *Journal of Network and Computer Applications*, 204, 103410.
+10. Muhammad, A., et al. (2023). Live network traffic anomaly detection and resource utilization analysis in open-source SIEM stacks. *Security and Communication Networks*, 2023, 1–15.
+11. Najafi, P., et al. (2024). Context-aware outlier detection ensembles for enterprise-scale EDR telemetry and LOLBins tracking. *IEEE Transactions on Dependable and Secure Computing*, 21(3), 1450–1464.
+12. Nurusheva, A., et al. (2024). Machine learning integrated SIEM architecture with automated SOC alert generation and orchestration. *Expert Systems with Applications*, 240, 122501.
+13. Sebbar, A., et al. (2023). Real-time network traffic analysis and threat detection integration with Elastic SIEM. *Future Generation Computer Systems*, 141, 310–322.
+14. Ustz, M., et al. (2024). Supervised adaptive misuse detection and evasion identification in Windows process creation logs. *Computers & Security*, 139, 103702.
+15. Yauri, R., et al. (2026). Gradient boosting and supervised machine learning classification of firewall security logs. *IEEE Transactions on Network and Service Management*, 23(1), 512–525.
