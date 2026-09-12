@@ -71,21 +71,23 @@ The Prototyping Model is used to develop the proposed proof-of-concept prototype
 
 ## Proposed Evaluation Plan
 
-The proposed approach will be evaluated using the CIC-IDS2017 dataset.
+The proposed machine learning approach will be evaluated using the CIC-IDS2017 dataset for binary classification of network traffic as benign or malicious.
+
+The Random Forest model will be compared with a Decision Tree baseline using the same dataset, preprocessing procedures and testing conditions.
 
 | Evaluation Component | Planned Setting |
 |---|---|
 | Dataset | CIC-IDS2017 |
-| Classification | Benign and malicious traffic |
-| Proposed ML Approach | Random Forest |
-| Baseline | Decision Tree |
-| SIEM Environment | Wazuh |
+| Classification | Benign vs. Malicious |
+| Proposed Model | Random Forest |
+| Baseline Model | Decision Tree |
+| Training/Test Split | 80% / 20% |
+| Sampling | Stratified |
 | Evaluation Metrics | Accuracy, Precision, Recall, F1-score |
-| Comparison Conditions | Same dataset, preprocessing and testing conditions |
+| Comparison Condition | Same dataset and testing conditions |
+| SIEM Environment | Wazuh (proposed integration) |
 
-The Random Forest model and Decision Tree baseline will use the same dataset, preprocessing procedures and testing conditions to ensure a fair comparison.
-
-The proposed approach will be considered successful if the Random Forest model demonstrates improved detection performance, particularly through a higher F1-score while maintaining suitable precision and recall.
+The main comparison will determine whether the Random Forest model provides better overall detection performance than the Decision Tree baseline, with particular attention to F1-score, precision and recall.
 
 ## Proposed System Architecture
 
@@ -101,39 +103,83 @@ The proposed system consists of the following main stages:
 
 ## Technical Components
 
-The repository contains preliminary technical components supporting the proposed machine learning-based SIEM threat detection approach. These components are intended to demonstrate the technical direction and feasibility of the proposed research.
+The repository contains preliminary technical components for the proposed machine learning-based cyber threat detection prototype.
 
-The planned technical components include:
+The current preliminary implementation includes:
 
-- Dataset preparation and loading
-- Data preprocessing
-- Feature selection
-- Random Forest model implementation
-- Decision Tree baseline implementation
-- Binary threat classification
-- Wazuh SIEM integration
-- Detection output
-- Model evaluation and performance measurement
+- **Dataset Loading:** Loads the CIC-IDS2017 dataset from a CSV file.
+- **Data Preprocessing:** Cleans column names, removes invalid and missing values, and prepares the dataset for model training.
+- **Binary Label Preparation:** Converts the traffic labels into two classes: benign and malicious.
+- **Feature Preparation:** Selects numerical features from the prepared dataset for machine learning.
+- **Data Splitting:** Splits the dataset into 80% training data and 20% testing data using stratified sampling.
+- **Random Forest Model:** Implements Random Forest as the proposed machine learning model.
+- **Decision Tree Model:** Implements Decision Tree as the baseline model.
+- **Performance Evaluation:** Evaluates both models using accuracy, precision, recall and F1-score.
+- **Expected Output:** Provides the expected format for comparing the performance of the Random Forest and Decision Tree models.
+
+The current source code represents preliminary machine learning development and does not yet constitute a complete production SIEM system.
   
 ## Technologies and Tools
 
 ### Programming Language
-- [To be confirmed from repository]
+- Python
 
-### Machine Learning
-- Random Forest
-- Decision Tree (baseline)
+### Machine Learning Library
+- Scikit-learn
 
-### SIEM
-- Wazuh
+### Data Processing Libraries
+- Pandas
+- NumPy
+
+### Machine Learning Models
+- Random Forest Classifier
+- Decision Tree Classifier (baseline)
+
+### SIEM Environment
+- Wazuh (proposed integration environment)
 
 ### Dataset
 - CIC-IDS2017
 
-### Libraries / Frameworks
-- [To be confirmed from repository]
-
-### Development / Analysis Tools
-- [To be confirmed from repository]
+### Development Tools
+- GitHub
+- Python development environment
   
 ## How to Run Preliminary Code
+
+### 1. Clone the repository
+
+git clone https://github.com/khadijaamirah/IDB30102_GroupZ_SecurityOperationsCentreandThreat-Monitoring-.git
+
+### 2. Navigate to the source code folder
+
+cd 04_Source_Code
+
+### 3. Install the required Python libraries
+
+pip install -r requirements.txt
+
+### 4. Place the CIC-IDS2017 dataset
+
+Place the prepared dataset file in the location expected by the source code:
+
+CIC-IDS2017.csv
+
+### 5. Run the Python source code
+
+python [source_code_filename].py
+
+### 6. View the output
+
+The program will display the Accuracy, Precision, Recall and F1-score for:
+
+- Random Forest
+- Decision Tree
+
+## Expected Outcome
+
+The preliminary prototype is expected to produce performance results for both the Random Forest and Decision Tree models using accuracy, precision, recall and F1-score.
+
+The Random Forest model is expected to be compared with the Decision Tree baseline under the same testing conditions. The final evaluation will determine whether the proposed approach improves cyber threat detection performance.
+
+Actual performance values will be reported after the models are trained and tested using the prepared CIC-IDS2017 dataset.
