@@ -1,0 +1,23 @@
+Expected Prototype Output
+
+The preliminary machine learning prototype is expected to produce evaluation results for both the proposed Random Forest model and the baseline Decision Tree model.
+
+Example output format:
+
+Random Forest
+------------------------------
+Accuracy : [Result]
+Precision: [Result]
+Recall   : [Result]
+F1-score : [Result]
+
+Decision Tree
+------------------------------
+Accuracy : [Result]
+Precision: [Result]
+Recall   : [Result]
+F1-score : [Result]
+
+The actual values will be obtained after the models are trained and tested using the prepared CIC-IDS2017 dataset.
+
+The main comparison will focus on whether the proposed Random Forest model provides better overall threat detection performance than the Decision Tree baseline.
