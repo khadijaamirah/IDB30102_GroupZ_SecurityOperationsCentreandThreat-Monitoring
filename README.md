@@ -167,7 +167,7 @@ CIC-IDS2017.csv
 
 ### 5. Run the Python source code
 
-python [source_code_filename].py
+python baseline_model.py
 
 ### 6. View the output
 
