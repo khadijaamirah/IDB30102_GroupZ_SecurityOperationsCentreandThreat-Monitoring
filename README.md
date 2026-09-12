@@ -43,7 +43,7 @@ To develop a machine learning approach to improve cyber threat detection accurac
 
 ---
 
-## Brief Description of the Proposed Solution
+## Proposed Solution
 
 The proposed solution is a machine learning-based cyber threat detection prototype for a SIEM environment.
 
@@ -55,7 +55,7 @@ The current implementation in the repository represents preliminary machine lear
 
 ---
 
-## Selected Research Methodology and Development Model
+## Research Methodology
 
 ### Research Methodology: Design Science Research (DSR)
 
@@ -150,7 +150,7 @@ The proposed architecture and flowchart are provided in the:
 
 ---
 
-## Description of Technical Components Included in the Repository
+## Technical Components
 
 The repository contains preliminary technical components for the proposed machine learning-based cyber threat detection prototype.
 
@@ -210,7 +210,7 @@ The repository contains an expected output format for comparing the Random Fores
 
 ---
 
-## Programming Languages, Software, Frameworks, Libraries, Datasets and Tools Expected to Be Used
+## Technologies and Tools
 
 ### Programming Language
 
@@ -241,21 +241,21 @@ The repository contains an expected output format for comparing the Random Fores
 
 ---
 
-## Instructions for Executing Preliminary Code
+## How to Run Preliminary Code
 
-### 1. Clone the repository
+### Step 1: Clone the repository
 
 ```bash
 git clone https://github.com/khadijaamirah/IDB30102_GroupZ_SecurityOperationsCentreandThreat-Monitoring-.git
 ```
 
-### 2. Navigate to the source code folder
+### Step 2: Navigate to the source code folder
 
 ```bash
 cd 04_Source_Code
 ```
 
-### 3. Install the required Python libraries
+### Step 3: Install the required Python libraries
 
 ```bash
 pip install -r requirements.txt
@@ -269,7 +269,7 @@ numpy
 scikit-learn
 ```
 
-### 4. Prepare the dataset
+### Step 4: Prepare the dataset
 
 Obtain the CIC-IDS2017 dataset from its official source and place the prepared CSV file in the location expected by the source code:
 
@@ -283,7 +283,7 @@ The complete dataset is not included in the repository. A sample input file is p
 05_Data_or_Sample_Input/sample_input.csv
 ```
 
-### 5. Run the preliminary source code
+### Step 5: Run the preliminary source code
 
 ```bash
 python baseline_model.py
@@ -291,7 +291,7 @@ python baseline_model.py
 
 Replace `baseline_model.py` with the actual Python source file name in the `04_Source_Code` folder.
 
-### 6. View the output
+### Step 6: View the output
 
 The preliminary program produces evaluation results for:
 
