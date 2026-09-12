@@ -13,6 +13,8 @@
 
 The research focuses on Security Information and Event Management (SIEM) and the application of machine learning for cyber threat detection.
 
+---
+
 ## Research Problem
 
 ### Problem 1: Cyber Threat Detection Accuracy
@@ -23,9 +25,13 @@ SIEM systems process large volumes of security events to detect potential cyber 
 
 Many existing machine learning-based SIEM studies rely on benchmark, simulated or limited datasets. Differences in datasets, evaluation metrics and experimental settings also make it difficult to compare the performance of different approaches consistently. Therefore, further research is needed using clearly defined and reproducible evaluation conditions.
 
+---
+
 ## Research Aim
 
 To develop a machine learning approach to improve cyber threat detection accuracy in Security Information and Event Management (SIEM) environments.
+
+---
 
 ## Research Objectives
 
@@ -33,23 +39,27 @@ To develop a machine learning approach to improve cyber threat detection accurac
 2. To develop a machine learning approach for cyber threat detection in a SIEM environment.
 3. To test the detection performance of the proposed machine learning approach using defined evaluation metrics and conditions.
 
-## Proposed Solution
+---
 
-The proposed solution is a machine learning-based cyber threat detection prototype integrated with a Wazuh SIEM environment.
+## Brief Description of the Proposed Solution
 
-The CIC-IDS2017 dataset will be used as the main dataset for model development and evaluation. The data will undergo preprocessing and feature selection before being used to train a Random Forest model for binary classification of network traffic as benign or malicious.
+The proposed solution is a machine learning-based cyber threat detection prototype for a SIEM environment.
 
-A Decision Tree model will be used as the baseline for comparison. The classification results will be demonstrated within the Wazuh SIEM environment to support security event monitoring and threat detection output.
+The CIC-IDS2017 dataset will be used for developing and evaluating the proposed approach. The data will undergo preprocessing and feature preparation before being used for binary classification of network traffic as benign or malicious.
 
-The proposed approach will be evaluated under the same testing conditions as the baseline to determine whether it can improve cyber threat detection performance.
+Random Forest is used as the proposed machine learning model, while Decision Tree is used as the baseline model for comparison. The proposed approach is intended to be demonstrated within a Wazuh SIEM environment for security monitoring and threat detection.
 
-## Research Methodology
+The current implementation in the repository represents preliminary machine learning development and is not a complete production SIEM system.
+
+---
+
+## Selected Research Methodology and Development Model
 
 ### Research Methodology: Design Science Research (DSR)
 
-The study uses Design Science Research (DSR) to guide the development and evaluation of the proposed machine learning-based threat detection solution.
+Design Science Research is selected to guide the development and evaluation of the proposed machine learning-based cyber threat detection solution.
 
-The DSR phases are:
+The DSR process consists of:
 
 1. Problem Identification
 2. Define the Research Objectives
@@ -60,7 +70,9 @@ The DSR phases are:
 
 ### Development Model: Prototyping Model
 
-The Prototyping Model is used to develop the proposed proof-of-concept prototype. The development process consists of:
+The Prototyping Model is selected because the project focuses on developing and evaluating a proof-of-concept prototype rather than a complete enterprise SIEM system.
+
+The development process consists of:
 
 1. Requirement Identification
 2. Initial Design
@@ -69,117 +81,226 @@ The Prototyping Model is used to develop the proposed proof-of-concept prototype
 5. Refinement
 6. Final Prototype
 
+---
+
 ## Proposed Evaluation Plan
 
-The proposed machine learning approach will be evaluated using the CIC-IDS2017 dataset for binary classification of network traffic as benign or malicious.
+The proposed Random Forest model will be compared with a Decision Tree baseline using the same dataset, preprocessing procedures and testing conditions.
 
-The Random Forest model will be compared with a Decision Tree baseline using the same dataset, preprocessing procedures and testing conditions.
+### Baseline
 
-| Evaluation Component | Planned Setting |
-|---|---|
-| Dataset | CIC-IDS2017 |
-| Classification | Benign vs. Malicious |
-| Proposed Model | Random Forest |
-| Baseline Model | Decision Tree |
-| Training/Test Split | 80% / 20% |
-| Sampling | Stratified |
-| Evaluation Metrics | Accuracy, Precision, Recall, F1-score |
-| Comparison Condition | Same dataset and testing conditions |
-| SIEM Environment | Wazuh (proposed integration) |
+**Decision Tree Classifier**
 
-The main comparison will determine whether the Random Forest model provides better overall detection performance than the Decision Tree baseline, with particular attention to F1-score, precision and recall.
+The Decision Tree model will be used as the baseline for comparison with the proposed Random Forest model.
+
+### Dataset
+
+**CIC-IDS2017**
+
+The dataset contains labelled normal and malicious network traffic and will be used for training and testing the machine learning models.
+
+The preliminary implementation uses an **80% training and 20% testing split** with stratified sampling.
+
+### Test Environment
+
+The machine learning approach is intended to be demonstrated in a **Wazuh SIEM environment** for security monitoring and detection output.
+
+### Evaluation Metrics
+
+The proposed evaluation will use:
+
+- **Accuracy** – Overall proportion of correctly classified traffic.
+- **Precision** – Proportion of predicted malicious traffic that is correctly identified.
+- **Recall** – Ability to identify actual malicious traffic.
+- **F1-score** – Balance between precision and recall.
+- **False Positive Rate (FPR)** – Proportion of benign traffic incorrectly identified as malicious.
+
+The Random Forest model will be compared with the Decision Tree baseline under the same dataset, preprocessing and testing conditions. The proposed approach will be considered successful if it demonstrates improved detection performance, particularly through a higher F1-score while maintaining suitable precision and recall and reducing false positive detections.
+
+---
 
 ## Proposed System Architecture
 
-The proposed system consists of the following main stages:
+The proposed system processes the CIC-IDS2017 dataset through data preprocessing and feature selection before applying the machine learning model. The resulting traffic classification is intended to be sent to the Wazuh SIEM environment for security monitoring and alert generation.
 
-1. **CIC-IDS2017 Dataset** – Provides normal and malicious network traffic.
-2. **Data Preprocessing** – Cleans and prepares the dataset for machine learning.
-3. **Feature Selection** – Selects relevant network traffic features.
-4. **Machine Learning Model** – Uses Random Forest for threat detection.
-5. **Threat Classification** – Classifies network traffic as benign or malicious.
-6. **SIEM Environment** – Uses Wazuh to demonstrate security event monitoring.
-7. **Security Alert / Detection Output** – Provides threat detection results for SOC analysts.
+### System Flow
 
-## Technical Components
+```text
+CIC-IDS2017 Dataset
+        ↓
+Data Preprocessing
+        ↓
+Feature Selection
+        ↓
+Machine Learning Model
+        ↓
+Threat Classification
+(Benign / Malicious)
+        ↓
+Wazuh SIEM Environment
+        ↓
+Security Alert / Detection Output
+```
+
+The proposed architecture and flowchart are provided in the:
+
+**`03_Architecture_and_Flowchart/`** folder.
+
+---
+
+## Description of Technical Components Included in the Repository
 
 The repository contains preliminary technical components for the proposed machine learning-based cyber threat detection prototype.
 
-The current preliminary implementation includes:
+### Data Loading
 
-- **Dataset Loading:** Loads the CIC-IDS2017 dataset from a CSV file.
-- **Data Preprocessing:** Cleans column names, removes invalid and missing values, and prepares the dataset for model training.
-- **Binary Label Preparation:** Converts the traffic labels into two classes: benign and malicious.
-- **Feature Preparation:** Selects numerical features from the prepared dataset for machine learning.
-- **Data Splitting:** Splits the dataset into 80% training data and 20% testing data using stratified sampling.
-- **Random Forest Model:** Implements Random Forest as the proposed machine learning model.
-- **Decision Tree Model:** Implements Decision Tree as the baseline model.
-- **Performance Evaluation:** Evaluates both models using accuracy, precision, recall and F1-score.
-- **Expected Output:** Provides the expected format for comparing the performance of the Random Forest and Decision Tree models.
+The preliminary Python implementation loads the CIC-IDS2017 dataset from a CSV file.
 
-The current source code represents preliminary machine learning development and does not yet constitute a complete production SIEM system.
-  
-## Technologies and Tools
+### Data Preprocessing
 
-### Programming Language
-- Python
+The implementation:
 
-### Machine Learning Library
-- Scikit-learn
+- Cleans column names.
+- Replaces infinite values with missing values.
+- Removes missing values.
 
-### Data Processing Libraries
-- Pandas
-- NumPy
+### Binary Classification
+
+The original traffic labels are converted into two classes:
+
+- `BENIGN` = 0
+- `Malicious` = 1
+
+### Feature Preparation
+
+The preliminary implementation selects numerical features from the prepared dataset for machine learning.
+
+### Training and Testing
+
+The dataset is divided into:
+
+- 80% training data
+- 20% testing data
+
+Stratified sampling is used during the split.
 
 ### Machine Learning Models
-- Random Forest Classifier
-- Decision Tree Classifier (baseline)
 
-### SIEM Environment
-- Wazuh (proposed integration environment)
+The repository includes:
+
+- **Random Forest Classifier** – proposed model
+- **Decision Tree Classifier** – baseline model
+
+### Model Evaluation
+
+The preliminary implementation evaluates the models using:
+
+- Accuracy
+- Precision
+- Recall
+- F1-score
+
+The repository also contains an expected evaluation output that includes False Positive Rate (FPR) as a planned metric.
+
+### Expected Output
+
+The repository contains an expected output format for comparing the Random Forest and Decision Tree models. Final numerical results will be added after model training and testing are completed.
+
+---
+
+## Programming Languages, Software, Frameworks, Libraries, Datasets and Tools Expected to Be Used
+
+### Programming Language
+
+- **Python**
+
+### Libraries
+
+- **Pandas**
+- **NumPy**
+- **Scikit-learn**
+
+### Machine Learning Models
+
+- **Random Forest Classifier**
+- **Decision Tree Classifier**
+
+### SIEM
+
+- **Wazuh** – proposed SIEM environment for security monitoring and detection output
 
 ### Dataset
-- CIC-IDS2017
 
-### Development Tools
-- GitHub
-- Python development environment
-  
-## How to Run Preliminary Code
+- **CIC-IDS2017**
+
+### Repository Platform
+
+- **GitHub**
+
+---
+
+## Instructions for Executing Preliminary Code
 
 ### 1. Clone the repository
 
+```bash
 git clone https://github.com/khadijaamirah/IDB30102_GroupZ_SecurityOperationsCentreandThreat-Monitoring-.git
+```
 
 ### 2. Navigate to the source code folder
 
+```bash
 cd 04_Source_Code
+```
 
 ### 3. Install the required Python libraries
 
+```bash
 pip install -r requirements.txt
+```
 
-### 4. Place the CIC-IDS2017 dataset
+The required libraries are:
 
-Place the prepared dataset file in the location expected by the source code:
+```text
+pandas
+numpy
+scikit-learn
+```
 
+### 4. Prepare the dataset
+
+Obtain the CIC-IDS2017 dataset from its official source and place the prepared CSV file in the location expected by the source code:
+
+```text
 CIC-IDS2017.csv
+```
 
-### 5. Run the Python source code
+The complete dataset is not included in the repository. A sample input file is provided in:
 
+```text
+05_Data_or_Sample_Input/sample_input.csv
+```
+
+### 5. Run the preliminary source code
+
+```bash
 python baseline_model.py
+```
+
+Replace `baseline_model.py` with the actual Python source file name in the `04_Source_Code` folder.
 
 ### 6. View the output
 
-The program will display the Accuracy, Precision, Recall and F1-score for:
+The preliminary program produces evaluation results for:
 
 - Random Forest
 - Decision Tree
 
-## Expected Outcome
+using:
 
-The preliminary prototype is expected to produce performance results for both the Random Forest and Decision Tree models using accuracy, precision, recall and F1-score.
+- Accuracy
+- Precision
+- Recall
+- F1-score
 
-The Random Forest model is expected to be compared with the Decision Tree baseline under the same testing conditions. The final evaluation will determine whether the proposed approach improves cyber threat detection performance.
-
-Actual performance values will be reported after the models are trained and tested using the prepared CIC-IDS2017 dataset.
+Final experimental results will be added after the model development and evaluation stages are completed.
