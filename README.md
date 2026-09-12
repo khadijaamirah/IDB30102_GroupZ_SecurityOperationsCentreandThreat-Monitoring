@@ -1,6 +1,5 @@
 # Development of a Machine Learning Approach to Improve Cyber Threat Detection Accuracy in Security Information and Event Management
 
-## Group Members and Student IDs
 ### Group Z
 1) Siti Khadijah Amirah Binti Mohd Zaidi (52215124487)
 2) Nurul Humaira Aqilah Binti Abdul Rahim (52215124553)
