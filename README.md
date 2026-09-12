@@ -7,6 +7,8 @@
 3) Nurin Binti Hasan (52215124134)
 4) Nurul Najwa Binti Idrus (52215124883)
 
+---
+
 ## Assigned Research Area
 
 **Security Operations Centre (SOC) and Threat Monitoring**
